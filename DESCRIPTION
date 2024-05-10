@@ -1,0 +1,11 @@
+Package: visCrossingAPI
+Title: Interface to Visual Crossing Weather API
+Version: 0.0.0.9000
+Authors@R: 
+    person("Luke", "Duttweiler", , "lduttweiler@hsph.harvard.edu", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-0467-995X"))
+Description: Provides an easy to use R interface to the Visual Crossing Weather API. The data is owned and provided by Visual Crossing Weather, use of this package requires an API key provided by Visual Crossing. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
