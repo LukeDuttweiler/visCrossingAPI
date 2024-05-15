@@ -30,5 +30,8 @@ buildURL <- function(apiKey = NULL, table = NULL, ...){
   tabArgsExp <- paste(names(tabArgs), tabArgs, sep = '=', collapse = '&')
   urlString <- paste0(urlString, tabArgsExp)
 
+  #Replace any user entered ' ' characters as these cause problems.
+  urlString <- gsub(' ', '%20', urlString)
+
   return(urlString)
 }
