@@ -26,7 +26,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{tst <- vc.forecast('APIKEY', locations = 'Rochester, NY', forecastDays = '3')}
+#' \dontrun{tst <- vc.forecast('APIKEY', locations = 'Fort Wayne,IN', forecastDays = '2')}
 vc.forecast <- function(apiKey,
                         locations = NULL,
                         forecastDays = '5',
@@ -114,9 +114,9 @@ vc.forecast <- function(apiKey,
 #' @export
 #'
 #' @examples
-#' \dontrun{tst <- vc.history('APIKEY', locations = 'Rochester, NY',
-#'                             startDateTime = '1993-12-20T00:00:00',
-#'                             endDateTime = '1993-12-22T00:00:00')}
+#' \dontrun{tst <- vc.history('APIKEY', locations = 'Fort Wayne,IN',
+#'                             startDateTime = '1983-11-06',
+#'                             endDateTime = '1983-11-09')}
 vc.history <- function(apiKey,
                        locations = NULL,
                        startDateTime = NULL,
@@ -216,8 +216,8 @@ vc.history <- function(apiKey,
 #' @export
 #'
 #' @examples
-#' \dontrun{tst <- vc.historySummary('APIKEY', locations = 'Rochester,NY',
-#'                                    minYear = '2019', maxYear = 2022,
+#' \dontrun{tst <- vc.historySummary('APIKEY', locations = 'Fort Wayne,IN',
+#'                                    minYear = '1983', maxYear = '1988',
 #'                                    contentType = 'csv')}
 vc.historySummary <- function(apiKey,
                               locations = NULL,

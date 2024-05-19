@@ -14,3 +14,6 @@ BugReports: https://github.com/LukeDuttweiler/visCrossingAPI/issues
 Imports: 
     RJSONIO,
     utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
