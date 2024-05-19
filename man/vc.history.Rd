@@ -85,5 +85,7 @@ data.frame with output of VC Weather call
 This function guides construction of a request to the 'history' table on the VC Weather API. The parameter descriptions are quoted directly from the VC weather-api documentation and should be entered as character strings.
 }
 \examples{
-tst <- vc.history('PC3XUM7KALTRECYQKTNFM9CCR', locations = 'Rochester, NY', startDateTime = '1993-12-20T00:00:00', endDateTime = '1993-12-22T00:00:00')
+\dontrun{tst <- vc.history('APIKEY', locations = 'Rochester, NY',
+                            startDateTime = '1993-12-20T00:00:00',
+                            endDateTime = '1993-12-22T00:00:00')}
 }

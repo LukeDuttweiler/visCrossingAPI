@@ -60,5 +60,7 @@ t
 This function guides construction of a request to the 'historysummary' table on the VC Weather API. The parameter descriptions are quoted directly from the VC weather-api documentation and should be entered as character strings.
 }
 \examples{
-tst <- vc.historySummary('PC3XUM7K', locations = 'Rochester,NY', minYear = '2019', maxYear = 2022, contentType = 'csv')
+\dontrun{tst <- vc.historySummary('APIKEY', locations = 'Rochester,NY',
+                                   minYear = '2019', maxYear = 2022,
+                                   contentType = 'csv')}
 }

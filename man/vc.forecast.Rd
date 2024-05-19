@@ -58,5 +58,5 @@ data.frame with output of VC Weather call
 This function guides construction of a request to the 'forecast' table on the VC Weather API. The parameter descriptions are quoted directly from the VC weather-api documentation and should be entered as character strings.
 }
 \examples{
-tst <- vc.forecast('PC3XUM7KALTRECYQKTNFM9CCR', locations = 'Rochester, NY', forecastDays = '5')
+\dontrun{tst <- vc.forecast('APIKEY', locations = 'Rochester, NY', forecastDays = '3')}
 }

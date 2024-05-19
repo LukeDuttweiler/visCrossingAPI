@@ -3,11 +3,22 @@
 #The 4 cities were selected to give a general idea of weather patterns
 #in each region, and so are spaced out (somewhat) evenly across the region
 
-
-#' Gives 4 locations in the 'Northwest' US Climate Region
+#' @name USregions
+#' @rdname USregions
 #'
-#' @return Vector of City, State Names
+#' @title Selection of cities in Continental US Climate Regions
+#'
+#' @description These functions return (somewhat haphazardly chosen) cities in Continental US climate
+#' regions as defined by Karl and Koss (1984).
+#'
+#' @return A character vector in the format Cityname, ST.
+NULL
+
+
+#'
+#'
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' northwest()
@@ -20,8 +31,8 @@ northwest <- function(){
 
 #' Gives 4 locations in the 'Northern Rockies and Plains' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' northRockies()
@@ -34,8 +45,8 @@ northRockies <- function(){
 
 #' Gives 4 locations in the 'Upper Midwest' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' upperMidwest()
@@ -48,8 +59,8 @@ upperMidwest <- function(){
 
 #' Gives 4 locations in the 'Northeast' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' northeast()
@@ -62,8 +73,8 @@ northeast <- function(){
 
 #' Gives 4 locations in the 'West' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' west()
@@ -76,8 +87,8 @@ west <- function(){
 
 #' Gives 4 locations in the 'Southwest' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' southwest()
@@ -90,8 +101,8 @@ southwest <- function(){
 
 #' Gives 4 locations in the 'South' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' south()
@@ -104,8 +115,8 @@ south <- function(){
 
 #' Gives 4 locations in the 'Ohio Valley' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' ohioValley()
@@ -118,8 +129,8 @@ ohioValley <- function(){
 
 #' Gives 4 locations in the 'Southeast' US Climate Region
 #'
-#' @return Vector of City, State Names
 #' @export
+#' @rdname USregions
 #'
 #' @examples
 #' southeast()
